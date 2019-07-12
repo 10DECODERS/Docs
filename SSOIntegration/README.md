@@ -29,20 +29,20 @@
 
 
 
-![](https://raw.githubusercontent.com/10DECDERS/Docs/master/SSOIntegration/1.jpeg)
+![](https://raw.githubusercontent.com/10DECODERS/Docs/master/SSOIntegration/1.jpeg)
 
 
  **Step - 3**. Select the **Slack** option
 
 
-![](https://raw.githubusercontent.com/10DECDERS/Docs/master/SSOIntegration/2.jpeg)
+![](https://raw.githubusercontent.com/10DECODERS/Docs/master/SSOIntegration/2.jpeg)
 
 
 **Step - 4**.  Set the name for your SSO Integration Basically the **team** name.
 
 **Step - 5**. Click Create
 
-![](https://raw.githubusercontent.com/10DECDERS/Docs/master/SSOIntegration/3.jpeg)
+![](https://raw.githubusercontent.com/10DECODERS/Docs/master/SSOIntegration/3.jpeg)
 
 
 **Step - 6**. Once created in the instruction page make sure to keep note of **SAML 2.0 HTTP Endpoint**
@@ -50,7 +50,7 @@
 **Step - 7**.  Also the **Public Certificate** in the same page
 
 
-![](https://raw.githubusercontent.com/10DECDERS/Docs/master/SSOIntegration/4.jpeg)
+![](https://raw.githubusercontent.com/10DECODERS/Docs/master/SSOIntegration/4.jpeg)
 
 
 **Step - 8**. Optionally use the idp provided in the same page.
@@ -66,17 +66,17 @@
 **Step - 13**.  Customize the login page as needed based on our company requirements
 
 
-![](https://raw.githubusercontent.com/10DECDERS/Docs/master/SSOIntegration/5.jpeg)
+![](https://raw.githubusercontent.com/10DECODERS/Docs/master/SSOIntegration/5.jpeg)
 
 **Step - 14**. Click on preview to view template changes after modification, this will be the screen where user will login with your application
 
-![](https://raw.githubusercontent.com/10DECDERS/Docs/master/SSOIntegration/6.jpeg)
+![](https://raw.githubusercontent.com/10DECODERS/Docs/master/SSOIntegration/6.jpeg)
 
 
 **Step - 15**.  Go to Dashboard once done, and click on **Connections → Database** to configure custom database if needed
 
 
-![](https://raw.githubusercontent.com/10DECDERS/Docs/master/SSOIntegration/7.jpeg)
+![](https://raw.githubusercontent.com/10DECODERS/Docs/master/SSOIntegration/7.jpeg)
 
 
 
@@ -85,7 +85,7 @@
 
 
 
-![](https://raw.githubusercontent.com/10DECDERS/Docs/master/SSOIntegration/8.jpeg)
+![](https://raw.githubusercontent.com/10DECODERS/Docs/master/SSOIntegration/8.jpeg)
 
 
 ------------
@@ -131,7 +131,7 @@ function login(email, password, callback) {
 **Step - 17**. This way user will be prompted to the page and enter the credentials, then the script in login will be called and callbacks the response. It can use any database like mongo, mysql, postgres, or it can even be a rest Endpoint. 
 
 
-![](https://raw.githubusercontent.com/10DECDERS/Docs/master/SSOIntegration/9.jpeg)
+![](https://raw.githubusercontent.com/10DECODERS/Docs/master/SSOIntegration/9.jpeg)
 
 
 
@@ -147,7 +147,7 @@ function login(email, password, callback) {
 
 
 
-![](https://raw.githubusercontent.com/10DECDERS/Docs/master/SSOIntegration/10.jpeg)
+![](https://raw.githubusercontent.com/10DECODERS/Docs/master/SSOIntegration/10.jpeg)
 
 
 
@@ -157,7 +157,7 @@ function login(email, password, callback) {
 **Step - 23**.  Click Configure next to **SAML authentication**.
 
 
-![](https://raw.githubusercontent.com/10DECDERS/Docs/master/SSOIntegration/11.jpeg)
+![](https://raw.githubusercontent.com/10DECODERS/Docs/master/SSOIntegration/11.jpeg)
 
 
 
@@ -169,7 +169,7 @@ function login(email, password, callback) {
 **Step - 26**. Which we got from auth0 earlier, those three htp endpoint,**idp and public certificate**
 
 
-![](https://raw.githubusercontent.com/10DECDERS/Docs/master/SSOIntegration/12.jpeg)
+![](https://raw.githubusercontent.com/10DECODERS/Docs/master/SSOIntegration/12.jpeg)
 
 
 
@@ -187,7 +187,7 @@ function login(email, password, callback) {
 **Step - 32**. Select **Save** Configuration to finish.
 
 
-![](https://raw.githubusercontent.com/10DECDERS/Docs/master/SSOIntegration/13.jpeg)
+![](https://raw.githubusercontent.com/10DECODERS/Docs/master/SSOIntegration/13.jpeg)
 
 
 
@@ -196,7 +196,7 @@ function login(email, password, callback) {
 - The end users will see a page like below when they put the url on browser 
 
 
-![](https://raw.githubusercontent.com/10DECDERS/Docs/master/SSOIntegration/14.jpeg)
+![](https://raw.githubusercontent.com/10DECODERS/Docs/master/SSOIntegration/14.jpeg)
 
 
 
@@ -204,7 +204,7 @@ function login(email, password, callback) {
 **Step - 34**. When clicked n sign in button it will land up in below page
 which is our cusomized login page from auth0.
 
-![](https://raw.githubusercontent.com/10DECDERS/Docs/master/SSOIntegration/15.jpeg)
+![](https://raw.githubusercontent.com/10DECODERS/Docs/master/SSOIntegration/15.jpeg)
 
 
 **Step - 35**. The credentials provided in this page, will pass through the login script in connection tab in auth0, which wil return a redirect url with a token for redirecitng the users to the success callback url after login. 
